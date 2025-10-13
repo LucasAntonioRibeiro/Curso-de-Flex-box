@@ -1,0 +1,1 @@
+display: ele difine o elemento como um flex container, tornando os seus filhos flex-itens
