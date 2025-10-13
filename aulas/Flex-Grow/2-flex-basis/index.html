@@ -8,49 +8,66 @@
 </head>
 
 <body>
-    <h1>Display: block;</h1>
+    <h1>flex-basis: auto;</h1>
     <section class="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
+        <div class="item basis-auto">Palavra 1</div>
+        <div class="item basis-auto">2</div>
+        <div class="item basis-auto-grow-2">3</div>
+        <div class="item basis-auto-width">4</div>
+        <div class="item basis-auto-grow-0">5</div>
     </section>
 
-    <h1>Display: flex;</h1>
-    <section class="container flex">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
+    <section class="container overlay">
+        <div class="item basis-auto">Palavra 1</div>
+        <div class="item basis-auto">2</div>
+        <div class="item basis-auto-grow-2">3</div>
+        <div class="item basis-auto-width">4</div>
+        <div class="item basis-auto-grow-0">5</div>
     </section>
 
-    <h1>Display: flex;</h1>
-    <section class="container flex">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item">7</div>
+    <h1>flex-basis: 0;</h1>
+    <section class="container">
+        <div class="item basis-0">Teste de Cont</div>
+        <div class="item  basis-0">2</div>
+        <div class="item basis-0-grow-2">3</div>
+        <div class="item basis-0-width">4</div>
+        <div class="item basis-0-grow-0">5</div>
     </section>
 
-    <h1>Display: flex;</h1>
-    <section class="container flex flex-wrap">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item">7</div>
+    <section class="container overlay">
+        <div class="item basis-0">Teste de Cont</div>
+        <div class="item  basis-0">2</div>
+        <div class="item basis-0-grow-2">3</div>
+        <div class="item basis-0-width">4</div>
+        <div class="item basis-0-grow-0">5</div>
     </section>
 
-    <h1>Display: flex; // flex-item-1</h1>
-    <section class="container flex">
-       <div class="item flex-item-1">teste 1</div>
-       <div class="item flex-item-1">teste 2</div>
-       <div class="item flex-item-1">teste 3</div>
+    <h1>flex-basis: Número;</h1>
+    <section class="container basis-numero-container">
+        <div class="item basis-110">1</div>
+        <div class="item basis-110">12</div>
+        <div class="item basis-110">12345678910</div>
+        <div class="item basis-300">1234</div>
+        <div class="item basis-110-porcento">1</div>
+        <div class="item basis-110-porcento">12</div>
+        <div class="item basis-110-porcento">123</div>
+        <div class="item basis-110-porcento">1234</div>
+    </section>
+
+    <h1>flex-basis:número; // diferente Conteudo</h1>
+    <section class="container basis-numero-container">
+        <div class="item basis-110">Conteudo Grande</div>
+        <div class="item basis-110">Palavramaior</div>
+        <div class="item basis-110">Oi</div>
+    </section>
+
+    <h1>flex-basis: Número // grow 1</h1>
+    <section class="basis-numero-container">
+        <div class="basis-110-grow-1">1</div>
+        <div class="basis-110-grow-1">12</div>
+        <div class="basis-110-grow-1">1234</div>
+        <div class="basis-110-grow-1">12345</div>
+        <div class="basis-110-grow-1">5</div>
     </section>
 </body>
 
