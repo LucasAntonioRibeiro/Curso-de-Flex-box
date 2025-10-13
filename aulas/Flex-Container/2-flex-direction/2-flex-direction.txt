@@ -1,0 +1,3 @@
+2-Flex-Direction:define a direção dos flex itens. por padrão ele é row(linha), por isso quando o display: flex; é adicionado,  os elementos ficam em uma linha do lado do outro.
+
+A mudança de row para column geralmente acontece quando estamos definindo os estilos em media queries para mobile. Assim voce garante que o conteudo seja apresentando em coluna unica 
