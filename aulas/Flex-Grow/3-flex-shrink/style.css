@@ -1,36 +1,57 @@
-.flex{
-    display: flex;
+.shrink-1 {
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
-.flex-wrap{
+.shrink-3 {
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+
+.shrink-1-basis {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+}
+
+.shrink-0-basis {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-basis: 150px;
+}
+
+.shrink-3-basis {
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-basis: 150px;
+}
+
+.flex-wrap {
     flex-wrap: wrap;
 }
 
-.flex-item-1{
-    flex: 1;
-}
-
-.item{
+.item {
     margin: 5px;
     background: tomato;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
-.container{
+.container {
     max-width: 400px;
     margin: 0 auto;
+    display: flex;
     border: 1px solid #ccc;
 }
 
-h1{
+h1 {
     text-align: center;
     margin: 20px 0 0 0;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: normal;
 }
 
-body{
+body {
     font-family: monospace;
     color: #333;
 }
