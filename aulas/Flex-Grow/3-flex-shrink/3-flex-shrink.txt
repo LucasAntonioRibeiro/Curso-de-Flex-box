@@ -1,1 +1,1 @@
-display: ele difine o elemento como um flex container, tornando os seus filhos flex-itens
+3-flex-shrink: Define a capacidade de redução de tamanho do item.
