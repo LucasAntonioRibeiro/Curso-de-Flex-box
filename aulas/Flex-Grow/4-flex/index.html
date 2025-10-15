@@ -4,53 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Aula 1</title>
+    <title>Aula 4</title>
 </head>
 
 <body>
-    <h1>Display: block;</h1>
+    <H1>flex: n 1 auto;</H1>
     <section class="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
+        <div class="item basis-auto">Palavra 1</div>
+        <div class="item basis-auto">2</div>
+        <div class="item basis-auto-grow">3</div>
+        <div class="item basis-auto-widht">4</div>
+        <div class="item basis-auto-grow-0">5</div>
     </section>
 
-    <h1>Display: flex;</h1>
-    <section class="container flex">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
+    <h1>flex: 1;</h1>
+    <section class="container">
+        <div class="item basis-0">Test de Cont</div>
+        <div class="item basis-0">2</div>
+        <div class="item basis-0">Palavra</div>
+        <div class="item basis-0">4</div>
+        <div class="item basis-0">5</div>
     </section>
 
-    <h1>Display: flex;</h1>
-    <section class="container flex">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item">7</div>
+    <h1>flex: flex: 0 1 n;</h1>
+    <section class="container basis-numero-container">
+        <div class="item basis-110">1</div>
+        <div class="item basis-110">12</div>
+        <div class="item basis-110">12345678910</div>
+        <div class="item basis-300">1234</div>
+        <div class="item basis-110-porcento">1</div>
+        <div class="item basis-110-porcento">12</div>
+        <div class="item basis-110-porcento">123</div>
+        <div class="item basis-300-porcento">1234</div>
     </section>
 
-    <h1>Display: flex;</h1>
-    <section class="container flex flex-wrap">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item">7</div>
-    </section>
-
-    <h1>Display: flex; // flex-item-1</h1>
-    <section class="container flex">
-       <div class="item flex-item-1">teste 1</div>
-       <div class="item flex-item-1">teste 2</div>
-       <div class="item flex-item-1">teste 3</div>
+    <h1>flex: 1 1 n; //</h1>
+    <section class="container basis-numero-conteiner">
+        <div class="item basis-110-grow-1">1</div>
+        <div class="item basis-110-grow-1">12</div>
+        <div class="item basis-110-grow-1">1234</div>
+        <div class="item basis-110-grow-1">12345</div>
+        <div class="item basis-600-grow-1">5</div>
     </section>
 </body>
 
